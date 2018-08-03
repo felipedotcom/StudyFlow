@@ -56,9 +56,11 @@ win.DOM = DOM;
 })(window.DOM);
 ```
 ```
-closure: Quando eu tenho uma função no javascript ela cria um contexto, quando eu crio uma outra função dentro dela, ela tem acesso
+closure: Quando eu tenho uma função no javascript ela cria um contexto, 
+quando eu crio uma outra função dentro dela, ela tem acesso
 a tudo que está dentro da própria função e tudo que está fora, e tudo
 que eu chamar de fora a função de dentro guarda pra ela.
 
-closure: Uma função que consegue acessar todo o escopo que tem fora dela e consegue guardar esse valor, para que eu possa acessar depois
+closure: Uma função que consegue acessar todo o escopo que tem fora dela 
+e consegue guardar esse valor, para que eu possa acessar depois
 ```
