@@ -1,0 +1,92 @@
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+section h3 {
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+section img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.identity {
+  background-color: #4285F4;
+  color: #FFF;
+  padding: 10em 2em 7em;
+}
+
+.identity h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.7em;
+}
+.identity h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.projects-header {
+  float: left;
+  width: 30%;
+}
+
+.projects-header {
+  margin-top: 1em;
+}
+
+.projects {
+  margin-left: 40%;
+}
+
+.projects li {
+  background-color: #6F768B;
+  font-size: 1.3em;
+  padding: 1em;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+
+.projects li a {
+  color: #fff;
+}
+
+.projects li p {
+  color: #d2d6e2;
+  margin-top:0.5em;
+  line-height: 1.2;
+}
+
+#sobre {
+  position: relative;
+}
+
+#sobre p.text {
+  margin: 1em;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+#sobre p.bio {
+  color: #4285F4;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+#sobre p.bio, #sobre p.text {
+  width: 50%;
+}
+
+
+#sobre img {
+  width: 200px;
+  float: right;
+  position: absolute;
+  top: 0.5em;
+  right: 10%;
+}
+
