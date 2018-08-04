@@ -223,7 +223,13 @@
 > 5. Ajax - Parte 3
 > 6. Ajax - Parte 4, try/catch e desafio da semana #28
   
-  
+ >### [Aula #29]( https://github.com/felipedotcom/StudyFlow/blob/master/Javascript_Ninja/Anota%C3%A7%C3%B5es%20das%20Aulas/Aula29.md) ![progress](http://progressed.io/bar/100?title=completed "progress")   
+> 1. Revisão desafio da semana #28 - Parte 1
+> 2. Revisão desafio da semana #28 - Parte 2
+> 3. Revisão desafio da semana #28 - Parte 3
+> 4. Revisão desafio da semana #28 - Parte 4
+> 5. Module Pattern
+> 6. Module Pattern - parte 2 e desafio da semana #29
 
   
   
