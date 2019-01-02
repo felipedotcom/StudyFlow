@@ -1,32 +1,34 @@
+<!-- aluraframe/client/post.html -->
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Negociações</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.css">
+    <meta charset="UTF-8">
+    <title>Negociações</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
 </head>
 
 <body class="container">
-	<form class="form">
+    <form class="form">
 
-		<div class="form-group">
-			<label for="data">Data</label>
-			<input type="date" id="data" class="form-control" required autofocus/>        
-		</div>    
+        <div class="form-group">
+            <label for="data">Data</label>
+            <input type="date" id="data" class="form-control" required autofocus/>        
+        </div>    
 
-		<div class="form-group">
-			<label for="quantidade">Quantidade</label>
-			<input type="number" min="1" step="1" id="quantidade" class="form-control" value="1" required/>
-		</div>
+        <div class="form-group">
+            <label for="quantidade">Quantidade</label>
+            <input type="number" min="1" step="1" id="quantidade" class="form-control" value="1" required/>
+        </div>
 
-		<div class="form-group">
-			<label for="valor">Valor</label>
-			<input id="valor" type="number" class="form-control"  min="0.01" step="0.01" value="0.0" required />
-		</div>
+        <div class="form-group">
+            <label for="valor">Valor</label>
+            <input id="valor" type="number" class="form-control"  min="0.01" step="0.01" value="0.0" required />
+        </div>
 
-		<button class="btn btn-primary" type="submit" onclick="sendPost(event)">Enviar dados para servidor</button>
-	</form>
+        <button class="btn btn-primary" type="submit" onclick="sendPost(event)">Enviar dados para servidor</button>
+    </form>
 
+    <script src="js/app/services/HttpService.js"></script>
     <script>
         function sendPost(event) {
 
@@ -45,28 +47,18 @@
                 valor: inputValor.value
             };
 
-            let xhr = new XMLHttpRequest();
-            xhr.open("POST", "/negociacoes", true);
-            xhr.setRequestHeader("Content-type", "application/json");
-            
-            xhr.onreadystatechange = () => {
-                
-                if (xhr.readyState == 4) {
-
-                    if (xhr.status == 200) {
-                        inputData.value = '';
-                        inputQuantidade.value = 1;
-                        inputValor.value = 0.0;
-                        inputData.focus();
-                        alert('Negociação enviada com sucesso');
-                    } else {
-                        alert(`Não foi possível enviar a negociação: ${xhr.responseText}`);
-                    }
-                }
-            }
-            xhr.send(JSON.stringify(negociacao));
-                
-    }
+            // usando nosso serviço. Veja que nem guardei em uma variável 
+            new HttpService()
+                .post('/negociacoes', negociacao)
+                .then(() => {
+                    inputData.value = '';
+                    inputQuantidade.value = 1;
+                    inputValor.value = 0.0;
+                    inputData.focus();
+                    alert('Negociação enviada com sucesso');
+                })
+                .catch(erro => alert(`Não foi possível enviar a negociação: ${erro}`));
+        }
     </script>
 </body>
 </html>
