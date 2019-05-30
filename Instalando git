@@ -1,0 +1,17 @@
+Usaremos o Git para nosso sistema de controle de versão, então vamos configurá-lo para corresponder à nossa conta do Github. Se você ainda não tem uma conta do Github, registre - se . Será útil para o futuro.
+
+Substitua meu nome e endereço de e-mail nas etapas a seguir com as que você usou para sua conta do Github.
+
+git config --global color.ui true
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR@EMAIL.com"
+ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com"
+O próximo passo é pegar a chave SSH recém-gerada e adicioná-la à sua conta do Github. Você deseja copiar e colar a saída do comando a seguir e (colá-lo aqui)[https://github.com/settings/keys] .
+
+cat ~/.ssh/id_rsa.pub
+Depois de fazer isso, você pode verificar e ver se funcionou:
+
+ssh -T git@github.com
+Você deve receber uma mensagem como esta:
+
+Hi excid3! You've successfully authenticated, but GitHub does 
