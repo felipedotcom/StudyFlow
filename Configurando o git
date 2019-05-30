@@ -6,9 +6,12 @@ git config --global color.ui true
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
 ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com"
-O próximo passo é pegar a chave SSH recém-gerada e adicioná-la à sua conta do Github. Você deseja copiar e colar a saída do comando a seguir e (colá-lo aqui)[https://github.com/settings/keys] .
+O próximo passo é pegar a chave SSH recém-gerada e adicioná-la à sua conta do Github. 
 
+Fazemos o seguinte comando no terminal 
 cat ~/.ssh/id_rsa.pub
+
+O resultado nós copiamos e (colamos aqui)[https://github.com/settings/keys] 
 Depois de fazer isso, você pode verificar e ver se funcionou:
 
 ssh -T git@github.com
