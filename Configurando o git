@@ -11,10 +11,13 @@ O próximo passo é pegar a chave SSH recém-gerada e adicioná-la à sua conta 
 Fazemos o seguinte comando no terminal 
 cat ~/.ssh/id_rsa.pub
 
-O resultado nós copiamos e [colamos aqui](https://github.com/settings/keys) 
+O resultado nós copiamos, vamos até o endereço https://github.com/settings/keys
+clicamos em New SSH key e colamos.
+
 Depois de fazer isso, você pode verificar e ver se funcionou:
 
 ssh -T git@github.com
+
 Você deve receber uma mensagem como esta:
 
 Hi excid3! You've successfully authenticated, but GitHub does 
