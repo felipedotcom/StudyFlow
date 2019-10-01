@@ -5,8 +5,16 @@
 
 >### [Introdução](https://github.com/felipedotcom/StudyFlow/blob/master/Javascript_Ninja/Anota%C3%A7%C3%B5es%20das%20Aulas/Aula01.md) ![progress](http://progressed.io/bar/100?title=completed "progress")
 
->### [Variáveis e Operadores](https://github.com/felipedotcom/StudyFlow/blob/master/Javascript_Ninja/Anota%C3%A7%C3%B5es%20das%20Aulas/Aula02.md) ![progress](http://progressed.io/bar/100?title=completed "progress")
+>### [Variáveis e Operadores](https://github.com/felipedotcom/StudyFlow/blob/master/Javascript_Ninja/Anota%C3%A7%C3%B5es%20das%20Aulas/Aula02.md) ![progress](http://progressed.io/bar/100?title=completed "progress") !
 
+for(i=0)
+meamsdiawdpaiwdçmawdç
+aiçsdiçawmdawom
+aẃdiawdipawm
+awdnawdi
+awdnawidiawdmawda
+adaiçwdawda
+awndiawndpiawdipanwdnawidn
 
 >### [Arrays, Loop e Estilos](https://github.com/felipedotcom/StudyFlow/blob/master/Javascript_Ninja/Anota%C3%A7%C3%B5es%20das%20Aulas/Aula03.md) ![progress](http://progressed.io/bar/100?title=completed "progress")
 
