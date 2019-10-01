@@ -10,7 +10,7 @@ const artigo = "<article>" +
                         + blog.titulo +
                       "</h1>"+
                     "</header>" +
-
+                          
                     "<section>" +
                         "<p>"
                          +blog.descricao+
