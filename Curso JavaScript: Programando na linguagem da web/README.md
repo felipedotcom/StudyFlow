@@ -2,7 +2,6 @@
 > ![JS](https://www.alura.com.br/assets/api/share/curso-javascript-programando-na-linguagem-web.png)
 > Anotações e Desafios do curso [JavaScript: Programando na linguagem da web](https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web)
 
->## **Aulas**
 
 >### [Introdução](https://github.com/felipedotcom/StudyFlow/blob/master/Javascript_Ninja/Anota%C3%A7%C3%B5es%20das%20Aulas/Aula01.md) ![progress](http://progressed.io/bar/100?title=completed "progress")
 
