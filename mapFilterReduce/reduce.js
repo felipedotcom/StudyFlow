@@ -1,4 +1,4 @@
-const total = () =>  pecas.reduce((resultado, itens) => {
+const somaTotal = () =>  pecas.reduce((resultado, itens) => {
 
     return resultado + itens.quantidade
 }, 0);
