@@ -2,7 +2,7 @@ Usaremos o Git para nosso sistema de controle de versão, então vamos configur�
 
 Substitua meu nome e endereço de e-mail nas etapas a seguir com as que você usou para sua conta do Github.
 
-No nosso terminal digitamos:
+# No nosso terminal digitamos:
 
 git config --global color.ui true
 git config --global user.name "YOUR NAME"
